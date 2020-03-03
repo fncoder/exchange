@@ -1,6 +1,6 @@
 async function fetchAverageRates() {
   const fetchTableA = await fetch(
-    "http://api.nbp.pl/api/exchangerates/tables/a/",
+    "https://api.nbp.pl/api/exchangerates/tables/a/",
     {
       headers: {
         Accept: "application/json"
@@ -10,7 +10,7 @@ async function fetchAverageRates() {
   const resultTableA = await fetchTableA.json();
 
   const fetchTableB = await fetch(
-    "http://api.nbp.pl/api/exchangerates/tables/b/",
+    "https://api.nbp.pl/api/exchangerates/tables/b/",
     {
       headers: {
         Accept: "application/json"
@@ -23,7 +23,7 @@ async function fetchAverageRates() {
 }
 
 async function fetchBidAndAsks() {
-  const result = await fetch("http://api.nbp.pl/api/exchangerates/tables/c/", {
+  const result = await fetch("https://api.nbp.pl/api/exchangerates/tables/c/", {
     headers: {
       Accept: "application/json"
     }
