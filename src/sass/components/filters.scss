@@ -1,0 +1,64 @@
+.filters {
+  font-size: 1.8rem;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.filters-wrapper {
+  padding-top: 4.8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.filters-arrows {
+  margin-left: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  height: 6px;
+  justify-content: space-between;
+
+  &:before,
+  &:after {
+    display: block;
+    font-size: 1.2rem;
+    color: var(--base-theme-Color);
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    line-height: 0;
+  }
+
+  &:before {
+    content: "\f0d7";
+    transform: rotate(180deg);
+  }
+
+  &:after {
+    content: "\f0d7";
+  }
+}
+
+.filters-group {
+  border-right: 1px solid #ffffff;
+  padding: 0 3.5rem;
+
+  &:nth-child(1) {
+    padding-left: 0;
+  }
+
+  &:nth-child(3) {
+    display: none;
+  }
+}
+
+.filters-group-name {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.filters-rates {
+  margin-top: 7.2rem;
+}

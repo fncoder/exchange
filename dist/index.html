@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+	<title>Exchange rates</title>
+<link href="assets/css/global.min.css" rel="stylesheet"></head>
+<body>
+	<div class="container">
+		<header class="header">
+			<div class="header-wrapper wrapper">
+				<a href="#" class="header-dropdown-lang">PL<a href="#" class="app-theme"></a></a>
+				<div class="dropdown-lang">
+					<a href="#" class="dropdown-lang__eng dropdown-lang-name text-uppercase eng">eng</a>
+					<a href="#" class="dropdown-lang__pl dropdown-lang-name text-uppercase pl">pl</a>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<nav class="nav">
+				<div class="nav-wrapper wrapper">
+					<ul class="nav-list">
+						<li class="nav-list-item"><a href="#" class="nav-list-item__link active-menu-link text-uppercase">średnie</a></li>
+						<li class="nav-list-item"><a href="#" class="nav-list-item__link text-uppercase">kupna i sprzedaży</a></li>
+					</ul>
+				</div>
+			</nav>
+			<ul class="filters">
+				<div class="filters-wrapper wrapper">
+					<ul class="filters-group">
+						<li class="filters-group-name">Nazwa waluty <span class="filters-arrows"></span></li>
+							<ul class="filters-rates"></ul>
+					</ul>
+					<ul class="filters-group">
+						<li class="filters-group-name">Symbol <span class="filters-arrows"></span></li>
+							<ul class="filters-rates"></ul>
+					</ul>
+					<ul class="filters-group no-show-average-rate">
+						<li class="filters-group-name">Kurs średni <span class="filters-arrows"></span></li>
+							<ul class="filters-rates"></ul>
+					</ul>
+					<ul class="filters-group no-hide-bid-ask">
+						<li class="filters-group-name">Kurs kupna <span class="filters-arrows"></span></li>
+							<ul class="filters-rates"></ul>
+					</ul>
+					<ul class="filters-group no-hide-bid-ask">
+						<li class="filters-group-name">Kurs sprzedaży <span class="filters-arrows"></span></li>
+							<ul class="filters-rates"></ul>
+					</ul>
+				</div>
+			</ul>
+		</main>
+		<footer class="footer"></footer>
+	</div>
+<script type="text/javascript" src="bundle.js"></script></body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "eslint-plugin-functional"
+  ],
+  "extends": [
+    "plugin:functional/external-recommended",
+    "plugin:functional/recommended"
+  ]
+}

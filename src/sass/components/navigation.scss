@@ -1,0 +1,38 @@
+.nav {
+  border-bottom: 1px solid var(--base-bottom-Border);
+}
+
+.nav-wrapper {
+  font-size: 1.8rem;
+  padding-top: 9.1rem;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-list-item {
+  &:nth-child(1n + 2) {
+    margin-left: 5.8rem;
+  }
+}
+
+.nav-list-item__link {
+  padding-bottom: 1.2rem;
+  display: block;
+}
+
+.active-menu-link {
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    width: 100%;
+    height: 3px;
+    background: var(--base-theme-Color);
+  }
+}

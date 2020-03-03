@@ -1,0 +1,23 @@
+.dropdown-lang {
+  background: #f8f8f8;
+  width: 8.1rem;
+  height: 5.9rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  top: 5rem;
+  color: var(--base-typography-Color);
+  display: none;
+
+  &__eng,
+  &__pl {
+    font-size: 1.2rem;
+  }
+
+  &__pl {
+    margin-top: 1rem;
+  }
+}

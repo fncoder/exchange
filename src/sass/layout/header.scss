@@ -1,0 +1,36 @@
+.header {
+  background: var(--base-theme-Color);
+  color: #ffffff;
+}
+
+.header-wrapper {
+  height: 5.3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+.header-dropdown-lang {
+  font-size: 1.2rem;
+
+  &:before {
+    content: "\f0d7";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 0.6rem;
+  }
+}
+
+.app-theme {
+  margin-left: 1.2rem;
+
+  &:before {
+    content: "\f186";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 1.2rem;
+  }
+}
