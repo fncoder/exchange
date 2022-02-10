@@ -32,7 +32,7 @@
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-webpack-plugin": "^2.4.2",
     "mini-css-extract-plugin": "^0.7.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "nodemon": "^1.19.2",
     "postcss-assets": "^5.0.0",
     "postcss-combine-duplicated-selectors": "^8.1.0",
